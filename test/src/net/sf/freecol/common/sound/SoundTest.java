@@ -74,7 +74,7 @@ public class SoundTest extends FreeColTestCase {
                 Thread.sleep(50);
             } catch (InterruptedException e) {}
         } catch (Exception e) {
-            fail("Could not play the sound" + id + ": " + e.getMessage());
+            fail("Could not play sound" + id + ": " + e.getMessage());
         }
     }
 
